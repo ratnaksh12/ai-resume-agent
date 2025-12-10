@@ -1,0 +1,18 @@
+careerflow-agent-core/
+├─ app.py                     # FastAPI app (main)
+├─ agents/
+│  ├─ __init__.py
+│  ├─ groq_client.py          # pluggable LLM client (insert your Groq key)
+│  ├─ router.py               # intent router -> list of agents
+│  ├─ job_match_agent.py
+│  ├─ section_enhance_agent.py
+│  └─ company_research_agent.py
+├─ parsers/
+│  ├─ __init__.py
+│  └─ resume_parser.py        # naive DOCX/PDF parser
+├─ store/
+│  ├─ __init__.py
+│  └─ sqlite_store.py         # simple SQLite-based store for resumes/versions
+├─ demo_run.py                # demo script to run sample flow locally
+├─ requirements.txt
+└─ README.md

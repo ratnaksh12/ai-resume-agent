@@ -1,0 +1,36 @@
+# Python virtual environments
+.venv/
+**/.venv/
+*/.venv/
+
+# Byte-compiled / cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Environment / local stuff
+.env
+.env.*
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# VSCode / IDE
+.vscode/
+.idea/
+
+# Chroma / vector DB / temp storage
+chromadb/
+**/chroma/
+*.sqlite
+*.db
+
+# Node modules, if any
+node_modules/
+
+# Build / dist
+dist/
+build/
+S

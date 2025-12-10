@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+python-multipart
+requests
+python-docx
+pdfplumber
+pydantic
+sqlalchemy
+python-dotenv
+langchain
+langchain-groq
+langchain-community
+chromadb
+sentence-transformers
+firebase-admin
