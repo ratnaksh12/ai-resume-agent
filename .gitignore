@@ -23,3 +23,5 @@ careerflow-agent-core/resume_chat_export.pdf
 # --- Node modules ---
 node_modules/
 **/node_modules/
+# Local SQLite DB
+careerflow-agent-core/careerflow.db
