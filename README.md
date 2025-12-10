@@ -1,19 +1,3 @@
-Perfect — congrats on getting the repo live ✅
-Here is a **complete, clean, recruiter-ready `README.md`** that you can directly **copy–paste into GitHub**.
-
-It includes:
-
-* Project overview
-* Features
-* Full agent architecture
-* Context engineering & tool choices
-* Tech stack
-* Setup instructions
-* API overview
-* Ethical use of AI (as you requested, framed for a 2 YOE engineer)
-
----
-
 # **AI Resume Agent – Multi-Agent Career Optimization System**
 
 🚀 **AI Resume Agent** is an intelligent multi-agent system that helps users:
