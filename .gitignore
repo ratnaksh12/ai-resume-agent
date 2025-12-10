@@ -1,36 +1,25 @@
-# Python virtual environments
+# --- Python virtual envs ---
 .venv/
 **/.venv/
 */.venv/
 
-# Byte-compiled / cache
+# --- Python cache ---
 __pycache__/
 **/__pycache__/
-*.py[cod]
 
-# Environment / local stuff
+# --- Env / secrets ---
 .env
-.env.*
-*.log
+careerflow-agent-core/firebase-service-account.json
 
-# OS junk
-.DS_Store
-Thumbs.db
+# --- Vector DB / Chroma / indexes ---
+careerflow-agent-core/chroma_store/
+careerflow-agent-core/chroma_store/**
+careerflow-agent-core/chroma_store/chroma.sqlite3
 
-# VSCode / IDE
-.vscode/
-.idea/
+# --- Generated PDFs / exports ---
+careerflow-agent-core/resume_*.pdf
+careerflow-agent-core/resume_chat_export.pdf
 
-# Chroma / vector DB / temp storage
-chromadb/
-**/chroma/
-*.sqlite
-*.db
-
-# Node modules, if any
+# --- Node modules ---
 node_modules/
-
-# Build / dist
-dist/
-build/
-S
+**/node_modules/
